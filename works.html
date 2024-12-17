@@ -119,68 +119,80 @@
                         </div>
 
                         <div class="pb-0">
-                            <!-- Filter -->
-                            <!-- <div class="select">
-                                <span class="placeholder">Selecione a Categoria</span>
-                                <ul class="filter">
-                                    <li class="filter__item">Categoria</li>
-                                    <li class="filter__item active" data-filter="*"><a class="filter__link active"
-                                            href="#filter">All</a></li>
-                                    <li class="filter__item" data-filter=".category-html "><a class="filter__link"
-                                            href="#filter">HTML+CSS</a></li>
-                                    <li class="filter__item" data-filter=".category-php"><a class="filter__link"
-                                            href="#filter">PHP</a></li>
-                                    <li class="filter__item" data-filter=".category-js"><a class="filter__link"
-                                            href="#filter">JavaScript</a></li>
-                                    <li class="filter__item" data-filter=".category-wordpress"><a class="filter__link"
-                                            href="#filter">WordPress</a></li>
-                                </ul>
-                                <input type="hidden" name="changemetoo" />
-                            </div> -->
-
                             <!-- Gallery -->
-                            <div class="gallery-grid js-grid-row js-filter-container">
+                            <div class="gallery-grid js-grid-row js-filter-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
                                 <div class="gutter-sizer"></div>
-                                <!-- Item 1 -->
-                                <figure class="gallery-grid__item category-html category-js">
+
+                                <!-- Item 1: Plataforma Brasil Participativo -->
+                                <figure class="gallery-grid__item category-data category-engineering" style="flex: 1 1 45%;">
                                     <div class="gallery-grid__image-wrap">
                                         <img class="gallery-grid__image cover lazyload" style="background-color: white;"
-                                            src="assets/img/logo-dubium.png" data-zoom alt="" />
+                                            src="assets/img/brasilParticipativo.png" data-zoom alt="Logo Brasil Participativo" />
                                     </div>
-                                    <img class="gallery-grid__caption">
-                                    <h3 class="title title--h3 gallery-grid__title">Dubium 2.0</h3>
-                                    <br>
-                                    <a class="gallery-grid__category" href="https://github.com/ericbky/2023.1-Dubium2.0"
-                                        style="color: white;">Repositório</a>
-                                    <br>
+                                    <h3 class="title title--h3 gallery-grid__title">Plataforma Brasil Participativo</h3>
+                                    <a class="gallery-grid__category" href="https://brasilparticipativo.presidencia.gov.br/"
+                                        style="color: blue;">Acesse a Plataforma</a>
+
                                     <a class="gallery-grid__category"
-                                        href="https://mdsreq-fga-unb.github.io/2023.1-Dubium2.0/inicial/"
-                                        style="color: white;">Documentação do projeto</a>
-                                    </img>
+                                        href="https://gitlab.com/lappis-unb/decidimbr/servicos-de-dados" style="color: blue;">
+                                        Repositório do Projeto</a>
                                     <br>
                                     <div style="text-align: justify;">
-                                        Projeto criado por discentes da <b>Universidade de Brasília</b>, na qual eu
-                                        fazia parte da equipe de desenvolvimento. Utilizamos nesse projeto: HTML, CSS,
-                                        JavaScript, React, Node, Express, MongoDB, Socket, Jest e Mocha a API do Chat
-                                        GPT3.
-                                        Metodologias: Scrum e XP.
+                                        Atuei como <b>Engenheiro de Dados</b> no desenvolvimento e sustentação da plataforma, focada na
+                                        participação social. Principais responsabilidades:<br>
+                                        - Criação de pipelines escaláveis com <b>Apache Spark</b> e <b>Airflow</b>.<br>
+                                        - Modelagem de dados com <b>DBT</b>.<br>
+                                        - Gerenciamento de <b>Data Lakes</b> e <b>Data Warehouses</b>.<br>
+                                        - Arquiteturas escaláveis com <b>Kubernetes</b>.<br>
+                                        Essa infraestrutura beneficiou milhões de usuários em um projeto inovador.
                                     </div>
                                 </figure>
 
-                                <!-- Item 1
-                                <figure class="gallery-grid__item category-html category-js">
+                                <!-- Item 2: Dubium 2.0 -->
+                                <figure class="gallery-grid__item category-html category-js" style="flex: 1 1 45%;">
                                     <div class="gallery-grid__image-wrap">
-                                        <img class="gallery-grid__image cover lazyload" src="assets/img/git.jpg"
-                                            data-zoom alt="" />
+                                        <img class="gallery-grid__image cover lazyload" style="background-color: white;"
+                                            src="assets/img/logo-dubium.png" data-zoom alt="Logo Dubium 2.0" />
                                     </div>
-                                    <img class="gallery-grid__caption">
-                                    <h4 class="title title--h6 gallery-grid__title">Dubium 2.0</h4>
-                                    <span class="gallery-grid__category"
-                                        href="https://github.com/ericbky/2023.1-Dubium2.0">https://github.com/ericbky/2023.1-Dubium2.0</span>
-                                    </img>
-                                </figure> -->
+                                    <h3 class="title title--h3 gallery-grid__title">Dubium 2.0</h3>
+                                    <a class="gallery-grid__category" href="https://github.com/ericbky/2023.1-Dubium2.0"
+                                        style="color: blue;">Link do Repositório</a>
+       
+                                    <a class="gallery-grid__category" href="https://mdsreq-fga-unb.github.io/2023.1-Dubium2.0/inicial/"
+                                        style="color: blue;">Documentação do Projeto</a>
+                                    <br>
+                                    <div style="text-align: justify;">
+                                        Projeto criado por discentes da <b>Universidade de Brasília</b>, na qual eu fazia parte da equipe
+                                        de desenvolvimento. Utilizamos: HTML, CSS, JavaScript, React, Node, Express, MongoDB, Socket,
+                                        Jest e Mocha, e a API do Chat GPT-3.<br>
+                                        <b>Metodologias</b>: Scrum e XP.
+                                    </div>
+                                </figure>
+
+                                <!-- Item 3: Desafio Engenharia de Dados - Coco Bambu 2024 -->
+                                <figure class="gallery-grid__item category-data category-project" style="flex: 1 1 30%;">
+                                    <div class="gallery-grid__image-wrap">
+                                        <img class="gallery-grid__image cover lazyload" style="background-color: white;"
+                                            src="assets/img/desafioCB.png" data-zoom alt="Logo Coco Bambu" />
+                                    </div>
+                                    <h3 class="title title--h3 gallery-grid__title">Desafio Engenharia de Dados - Coco Bambu 2024</h3>
+                                    <a class="gallery-grid__category"
+                                        href="https://gitlab.com/eric.bky/desafio_engenharia_dados_coco_bambu_2024"
+                                        style="color: blue;">Link do Repositório</a>
+                                    <br>
+                                    <div style="text-align: justify;">
+                                        Projeto realizado como parte do <b>Desafio de Engenharia de Dados</b> em 2024.<br>
+                                        - Implementação de pipelines de ingestão e transformação de dados.<br>
+                                        Este projeto foi desenvolvido para avaliar habilidades técnicas em engenharia de dados, com foco em modelagem e análise de estruturas complexas, desenvolvimento de código otimizado e aprimoramento do desempenho de soluções escaláveis.<br>
+                                        - Uso de ferramentas como <b>MinIO</b>, <b>Docker</b> e modelagem em conceito <b>Relacional</b>, arquitetura <b>Data Lake</b>, <b>API RESTful</b> e documentações.<br>
+                                        - Gerenciamento eficiente de dados em ambientes de alta disponibilidade.<br>
+                                    </div>
+                                </figure>
                             </div>
                         </div>
+                    </div>
+                </div>
+
 
                         <!-- Footer -->
                         <footer class="footer">© Eric Silveira Gomes</footer>
